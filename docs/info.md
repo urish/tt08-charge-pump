@@ -17,7 +17,7 @@ Apply a clock signal of 2 MHz to the `clk` input. In TT07, the analog pin voltag
 
 ## Simulation results
 
-Post layout simulation showing the output voltage `x1.vout` and the divided output voltage on ta `ua[0]` pin. The output voltage stabilizes at ~3.65 V, and the divided output voltage at ~1.82 V. The current draw is about 623.5 nA (measured by adding a 1k resistor between `ua[0]` and VGND in simulation).
+Post layout simulation showing the output voltage `x1.vout` and the divided output voltage on the `ua[0]` pin. The output voltage stabilizes at ~3.65 V, and the divided output voltage at ~1.82 V. The current draw is about 623.5 nA (measured by adding a 1k resistor between `ua[0]` and VGND in simulation).
 
 ![output voltage and divided voltage](sim_graph_vout.png)
 
